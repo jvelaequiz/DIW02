@@ -1,0 +1,63 @@
+
+h1,h3,h5
+{
+    color: #FFFFFF;
+
+}
+h1.seccion {
+    color: #333;
+    text-align: left;
+    font-size: 200%
+}
+footer 
+{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 2em; 
+    padding: 1em 0 5em 0; 
+    font-size: 92%; 
+    border-top: 1px solid #ccc; 
+}
+footer p { margin-bottom: 0; text-align: center;   }
+
+ul
+{
+    list-style-type:none;
+    margin:10;
+    padding:0;
+}
+li 
+{
+  display: inline-block;
+}
+
+/* //-- core typography and style -- */
+#nombre h1 { font-size: 48px; text-transform: uppercase; letter-spacing: 3px; }
+h2 { font-size: 152% }
+h4 { font-size: 122%; }
+h2, h4 { color: #333; }
+p { font-size: 100%; line-height: 18px; }
+a { color: #990003 }
+a:hover { text-decoration: none; }
+.job { position: relative; border-bottom: 1px solid #ccc; padding-left: 50px }
+/*.job h9 { position: absolute; top: 0.35em; right: 0 }*/
+.job p { margin: 0.75em 0 3em 0; }
+
+.gi_logo 
+{
+    background-image: url('img/github.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:30px;
+    height: 30px;
+    display: block;
+} 
+.li_logo 
+{
+    background-image: url('img/linkedin.svg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:30px;
+    height: 30px;
+    display: block;
+} 
