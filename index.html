@@ -13,12 +13,14 @@
             <img class="w3-image" src="img/InteligenciaArtificial.jpg" alt="Imagen de circuito impreso Azul" width="1500" height="600">
             <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center" >
               <h1 class="w3-hide-medium  w3-xxxlarge azul" ><strong>JAVIER VELA</strong></h1>
-              <h5 class="w3-hide-large azul" stw3-hide-smallyle="white-space:nowrap"><strong>JAVIER VELA</strong></h5>
+              <h5 class="w3-hide-large azul" s"><strong>JAVIER VELA</strong></h5>
               <h3 class="w3-hide-medium w3-hide-small azul" ><strong>SOFTWARE DEVELOPER</strong></h3>
             </div>
             <!-- https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_photo3&stacked=h -->
             <!-- Referencia 1:https://stackoverflow.com/questions/48913759/how-to-add-alt-text-to-background-images-making-background-images-accessible -->
-            <!-- Navbar (placed at the bottom of the header image) -->
+            <!-- Navbar (placed at the bottom of the header image) 
+            Esto da error en el validador cuando lo incluyo en la etiqueta h5: tw3-hide-smallyle="white-space:nowrap
+            -->
             
             <div class="w3-bar w3-light-grey w3-round w3-display-bottommiddle w3-hide-small" style="bottom:-16px">
                 <a href="#SobreMi" class="w3-bar-item w3-button">Sobre mí</a>
@@ -48,9 +50,9 @@
                 </ul>
             </nav>
             -->
-            <section id="SobreMi">
-                <h1 class="seccion" tabindex="-1"><strong>#Sobre mi</strong></h2>    
+            <section id="SobreMi"> 
                 <article >
+                    <h1 class="seccion" tabindex="-1"><strong>#Sobre mi</strong></h1>
                     <p class="job">
                         Soy un tio muy guay.
                         <br>
@@ -60,8 +62,8 @@
                 </article>
             </section>
             <section id="Educacion">
-                <h1 class="seccion" tabindex="-1"><strong>#Educacion</strong> </h1>    
-                <article class="job">
+                <h1 class="seccion" tabindex="-1"><strong>#Educacion</strong> </h1>   
+                <article class="job"> 
                     <h2>Ingeniería Técnica de Telecomunicaciones - Universidad Pública de Navarra. </h2>
                     <h2>FPII de Desarrollo de productos electrónicos - CIP Donapea </h2>
                     <h2>FPII online de Desarrollo de aplicaciones web - Politécnico Estella</h2>
