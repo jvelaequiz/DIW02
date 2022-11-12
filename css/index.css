@@ -68,3 +68,11 @@ a:hover { text-decoration: none; }
     height: 30px;
     display: block;
 } 
+
+header.grande{
+    max-width:1500px;
+}
+
+div.pequeno{
+    bottom:-16px;
+}
