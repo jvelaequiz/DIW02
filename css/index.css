@@ -4,7 +4,7 @@ h1,h3,h5
     color: #FFFFFF;
 }
 
-h1.seccion {
+.seccion h1{
     color: #333;
     text-align: left;
     font-size: 200%
