@@ -9,6 +9,12 @@ h1.seccion {
     text-align: left;
     font-size: 200%
 }
+
+h1.azul,h3.azul,h5.azul
+{
+    background-color:#0376e1;
+}
+
 footer 
 {
     padding: 10px;
@@ -18,7 +24,8 @@ footer
     font-size: 92%; 
     border-top: 1px solid #ccc; 
 }
-footer p { margin-bottom: 0; text-align: center;   }
+
+footer p { margin-bottom: 1; text-align: center;   }
 
 ul
 {
@@ -45,7 +52,7 @@ a:hover { text-decoration: none; }
 
 .gi_logo 
 {
-    background-image: url('img/github.svg');
+    background-image: url('../img/github.svg');
     background-size: cover;
     background-repeat: no-repeat;
     width:30px;
@@ -54,7 +61,7 @@ a:hover { text-decoration: none; }
 } 
 .li_logo 
 {
-    background-image: url('img/linkedin.svg'); 
+    background-image: url('../img/linkedin.svg'); 
     background-size: cover;
     background-repeat: no-repeat;
     width:30px;
